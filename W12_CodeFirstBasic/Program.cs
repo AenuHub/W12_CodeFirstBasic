@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace W12_CodeFirstBasic;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Testing W12_CodeFirstBasic...");
+    }
+}
+
