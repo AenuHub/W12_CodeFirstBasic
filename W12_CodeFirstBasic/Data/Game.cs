@@ -5,6 +5,7 @@ namespace W12_CodeFirstBasic.Data;
 public class Game
 {
     [Required]
+    [Key]
     public int Id { get; set; }
     
     [MaxLength(100)]
